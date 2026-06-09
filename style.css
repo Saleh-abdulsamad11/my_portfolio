@@ -80,6 +80,13 @@ html {
   display: none;
 }
 
+/* .my_logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+ */
 /* Scroll button styling */
 .scroll-up-btn {
   position: fixed;
