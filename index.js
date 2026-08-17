@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', function () { document.querySelectorAll('.social-btn').forEach(function (btn) { // Open link on click (use data-href so href="#" won't show raw link on hover) 
+    btn.addEventListener('click', function (e) { e.preventDefault(); var url = btn.getAttribute('data-href') || btn.dataset.href; if (url) { // open in new tab and avoid giving access to opener 
+        window.open(url, '_blank', 'noopener'); } });
 
 $(document).ready(function () {
     // Scroll down sticky navbar script start
